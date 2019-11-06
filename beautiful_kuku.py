@@ -16,5 +16,5 @@ row = int(input('行数を入力してください: '))
 column = int(input('列数を入力してください: '))
 for x in range(1, 1 + row):
     for y in range(1, 1 + column):
-        print(f'{y} x {x} = {y * x}', end=" | ")
+        print(f'{y} x {x} = {y * x:2d}', end=" | ")
     print()
