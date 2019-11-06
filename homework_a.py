@@ -39,8 +39,13 @@ print(kazuma_info["age"])  # 35
 # A-10: サイコロ
 import random
 
-dice = random.randint(1, 6)
-# print(dice)
+
+def dice():
+    print(random.randint(1, 6))
+
+
+# dice()
+# dice()
 
 # A-11: BMIアプリ
 height = float(input("Height(m)? > "))
